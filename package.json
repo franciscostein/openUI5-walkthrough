@@ -1,0 +1,22 @@
+{
+  "name": "walkthrough",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/webapp/index.html",
+  "scripts": {
+    "start": "node server/staticServer/static_server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.hanatrial.ondemand.com/p2001252118trial/walkthrough"
+  },
+  "author": "Leandro Costa",
+  "license": "ISC",
+  "dependencies": {
+    "@openui5/sap.m": "^1.68.1",
+    "@openui5/sap.ui.core": "^1.69.0",
+    "@openui5/themelib_sap_belize": "^1.69.0",
+    "http-proxy": "^1.11.2"
+  }
+}
